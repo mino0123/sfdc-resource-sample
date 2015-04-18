@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "babel": "^5.0.12",
+    "closure-compiler": "^0.2.6",
+    "gulp": "^3.8.11",
+    "gulp-closure-compiler": "^0.2.19",
+    "gulp-file": "^0.2.0",
+    "gulp-jsforce-deploy": "^1.0.1",
+    "gulp-zip": "^3.0.2"
+  }
+}
