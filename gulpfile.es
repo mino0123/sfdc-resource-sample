@@ -32,3 +32,7 @@ gulp.task('default', () => {
       password: SF_PASSWORD
     }))
 });
+
+gulp.task('watch', () => {
+  gulp.watch('src/**', ['default']);
+});
