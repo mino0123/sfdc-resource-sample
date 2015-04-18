@@ -1,8 +1,11 @@
+(function (global) {
+  var aaa = 1;
 
-var aaa = 1;
-var nnn = 2;
-var ccc = 3;
+  function func(msg) {
+    console.log(msg);
+  }
 
-function aaaaaaa() {
-	console.log(1);
-}
+  global.func = func;
+  func(aaa);
+
+})(this);
