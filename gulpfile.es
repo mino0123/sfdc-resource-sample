@@ -27,7 +27,6 @@ gulp.task('default', () => {
     .pipe(file('src/package.xml', packagexml))
     .pipe(file('src/staticresources/appjs.resource-meta.xml', metaxml))
     .pipe(zip('pkg.zip'))
-    .pipe(gulp.dest('deploy/'))
     .pipe(deploy({
       username: SF_USERNAME,
       password: SF_PASSWORD
