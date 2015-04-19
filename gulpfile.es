@@ -1,7 +1,7 @@
 let gulp = require('gulp');
 let zip = require('gulp-zip');
 let deploy = require('gulp-jsforce-deploy');
-var compiler = require('gulp-closure-compiler');
+let compiler = require('gulp-closure-compiler');
 let file = require('gulp-file');
 let pkgxml = require('./tasks/lib/object2packagexml.es');
 
